@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet"> <!-- font-family: 'Domine', serif; -->
     <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet"> <!--  font-family: 'Spectral SC', serif; -->
-    
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   </head>
   <body>
     <h1>AIDEN'S DEN</h1>
@@ -22,8 +22,11 @@
         <li>item c</li>
     </ul>
 
-    <a href="http://www.google.com">Link to Google</a>
+    <a href="http://www.google.com">Link to Google (in-place)</a><br>
+    <a href="http://www.google.com" target="_blank">Link to Google (new tab)</a><br>
+    <a href="http://www.google.com" target="_blank" title="this is a tooltip">Link to Google (tooltip + new tab)</a>
     <br><br>
+    <input type="text" disabled>
     <button id="userButton">Change user</button>
 
     <script src="scripts/main.js"></script>
